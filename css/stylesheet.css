@@ -1,0 +1,187 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: white !important;
+    position: fixed !important;
+    top: 0px;
+    z-index: 20;
+}
+
+.logo {
+    margin-top: -4px;
+}
+
+.color-main {
+    color: #2f4867 !important;
+}
+
+.btn {
+    background-color: #b97343 !important;
+}
+
+.btn:hover {
+    background-color: #8b4b20 !important;
+}
+
+
+.main-menu {
+    margin-right: 40px;
+}
+
+
+.main-menu a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.main-menu a:hover {
+    font-size: large;
+    background-color: #b97343;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-menu .active {
+    font-size: large;
+    background-color: #b97343;
+    border-radius: 10px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 200px !important;
+}
+
+.home-cars-rent-sale {
+    max-width: 100%;
+    text-align: center !important;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+.rent-cars-rent-sale {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sale-cars-rent-sale {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+
+.home-cars-rent-sale {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/2023_ford_everest_2000.jpg');
+    background-size: cover;
+}
+
+.rent-cars-rent-sale {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/Fortuner-LTD-vs-G-MAIN-2000.jpg');
+    background-size: cover;
+    max-width: 100% !important;
+}
+
+.sale-cars-rent-sale {
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/mitsubishi-montero-sport-2020.jpg');
+    background-size: cover;
+    max-width: 100% !important;
+    background-position: center !important;
+}
+
+/*
+.home-bg {
+    opacity: 0.6 !important;
+    z-index: -1;
+    position: relative;
+    top: -700px;
+}
+
+.rent-bg {
+    opacity: 0.6 !important;
+    z-index: -1;
+    position: relative;
+    top: -700px;
+}
+*/
+
+.home-rent-sale>div>h2 {
+    font-size: 30px;
+}
+
+.form-check {
+    background-color: white;
+    border-radius: 5px;
+    text-align: left !important;
+    padding-bottom: 5px;
+    margin-left: -1px !important;
+}
+
+.form-check .form-check-input {
+    margin-top: 5px !important;
+}
+
+.comparo h2 {
+    color: #2f4867;
+}
+
+.carousel-item {
+    padding: 0 auto !important;
+}
+
+.carousel-caption {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 0px !important;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+}
+
+.carousel-caption p {
+    font-weight: 500;
+}
+
+.about-us {
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('../images/nissan-terra-bg.jpg');
+    background-size: cover;
+    max-width: 100% !important;
+    background-position: center;
+}
+
+.about-us-body {
+    color: #b97343;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+
+.open-quote {
+    max-width: 30px;
+}
+
+.star-review {
+    max-width: 200px;
+}
+
+footer {
+    margin-top: 80px;
+
+}
+
+.list-specs {
+    list-style-type: none;
+}
+
+.list-specs-1 li:nth-child(even) {
+    background-color: #bbb;
+}
+
+.list-specs-2 li:nth-child(odd) {
+    background-color: #bbb;
+}
