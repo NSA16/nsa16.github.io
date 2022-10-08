@@ -185,6 +185,14 @@ footer {
     background-color: #bbb;
 }
 
+
+@media only screen and (max-width: 425px) {
+    .comparo-row {
+        display: block !important;
+    }
+}
+
+
 @media only screen and (max-width: 320) {
     .main-menu {
         margin: 0 0;
