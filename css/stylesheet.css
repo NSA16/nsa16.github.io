@@ -156,7 +156,6 @@ h1 {
 }
 
 .about-us-body {
-    color: #b97343;
     text-align: left;
     padding-bottom: 10px;
 }
@@ -189,7 +188,15 @@ footer {
 
 @media only screen and (max-width: 320) {
     .logo {
-        margin-left: 0px !important;
+        margin-left: -10px !important;
     }
+
+    .main-menu {
+        margin: 0 auto;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+    }
+    
   }
 
