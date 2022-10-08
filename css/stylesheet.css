@@ -25,7 +25,6 @@
 
 
 .main-menu {
-    margin-right: 40px;
     background-color: white;
 }
 
@@ -81,12 +80,15 @@ h1 {
 .home-cars-rent-sale {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/2023_ford_everest_2000.jpg');
     background-size: cover;
+    max-width: 100% !important;
+    background-position: center !important;
 }
 
 .rent-cars-rent-sale {
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../images/Fortuner-LTD-vs-G-MAIN-2000.jpg');
     background-size: cover;
     max-width: 100% !important;
+    background-position: center !important;
 }
 
 .sale-cars-rent-sale {
@@ -187,21 +189,22 @@ footer {
 }
 
 @media only screen and (max-width: 320) {
-    .logo {
-        margin-left: -10px !important;
-    }
-
     .main-menu {
         margin: 0 0;
-        padding: 2px 5px;
         background-color: white;
         width: 100%;
         justify-content: space-evenly !important;
+  }
+}
+  @media only screen and (max-width: 320) {
+    .logo {
+        margin-left: -10px !important;
     }
-    
+  }
+
+  @media only screen and (max-width: 320) {
     .about-us-body {
         text-align: left;
         width: 100%;
-        padding:10px;
     }
   }
