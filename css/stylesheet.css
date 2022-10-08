@@ -57,12 +57,9 @@ h1 {
 }
 
 .home-cars-rent-sale {
-    max-width: 100%;
     text-align: center !important;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: auto;
 }
 
 .rent-cars-rent-sale {
