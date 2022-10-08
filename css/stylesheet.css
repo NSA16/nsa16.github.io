@@ -26,6 +26,7 @@
 
 .main-menu {
     margin-right: 40px;
+    background-color: white;
 }
 
 
@@ -185,3 +186,10 @@ footer {
 .list-specs-2 li:nth-child(odd) {
     background-color: #bbb;
 }
+
+@media only screen and (max-width: 320) {
+    .logo {
+        margin-left: 0px !important;
+    }
+  }
+
